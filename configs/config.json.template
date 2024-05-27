@@ -1,0 +1,34 @@
+{
+    "wxofficial": {
+        "id": "",
+        "secret": "",
+        "cover_img": "wxofficial/cover.png",
+        "author": ""
+    },
+    "ai_service": "kimi",
+    "translate_service": "tencent_translate",
+    "services": {
+        "kimi": {
+            "url": "https://api.moonshot.cn/v1/chat/completions",
+            "key": "",
+            "translate": "You are a professional translator. Please translate the following text from [source language] to [target language]. Do not include any additional comments or information, just provide the translation.",
+            "summerize": "You are an AI assistant specialized in summarizing webpage content. Please read the content of the provided webpage and generate a concise summary. The summary should include the main points and key information, and should be no longer than 200 words. Avoid including any promotional or irrelevant details. Focus on delivering a clear and informative summary."
+        },
+        "anythingllm": {
+            "url": "http://host.docker.internal:3001",
+            "key": "",
+            "translate": "You are a professional translator. Please translate the following text from [source language] to [target language]. Do not include any additional comments or information, just provide the translation. Behind is content: [content]",
+            "summerize": "You are an AI assistant specialized in summarizing webpage content. Please read the content of the provided webpage and generate a concise summary. The summary should include the main points and key information, and should be no longer than 200 words. Avoid including any promotional or irrelevant details. Focus on delivering a clear and informative summary. Behind is content: [content]",
+            "slug": "summerize",
+            "slugs": {
+                "summerize": "summerize",
+                "translate": "translate"
+            }
+        },
+        "tencent_translate": {
+            "id": "",
+            "secret": "",
+            "project_id": 
+        }
+    }
+}

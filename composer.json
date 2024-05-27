@@ -1,0 +1,11 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "google/cloud-translate": "^1.13",
+        "tencentcloud/tmt": "^3.0"
+    }
+}

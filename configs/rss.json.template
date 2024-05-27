@@ -1,0 +1,19 @@
+{
+    "groups": [
+        {
+            "name": "AI",
+            "collection": [
+                {
+                    "name": "MIT",
+                    "url": "https://news.mit.edu/rss/topic/artificial-intelligence2",
+                    "language": "en"
+                },
+                {
+                    "name": "Nvidia",
+                    "url": "http://feeds.feedburner.com/nvidiablog",
+                    "language": "en"
+                }
+            ]
+        }
+    ]
+}
