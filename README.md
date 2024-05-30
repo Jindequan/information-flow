@@ -3,8 +3,8 @@
 > This is a repo for collecting information from rss and publishing to our wx official account as article.
 
 ### Benifits:
-1. We can read your rss articles on local by html webpage.
-2. We can read your rss articles on wechat by official article.
+1. You can read your rss articles on local by html webpage.
+2. You can read your rss articles on wechat by official article.
 3. You can sync rss at anytime by setting cron schedule.
 4. You also can save html as image to share them.
 
