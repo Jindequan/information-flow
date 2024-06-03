@@ -1,7 +1,7 @@
 <?php
-namespace App\Services\WXOfficial;
+namespace App\Services\Platform;
 use App\Core\Config;
-class API {
+class WXOfficialAPI {
     private $config;
     private $cacheFile = RESOURCE_PATH . "/wxofficial/cache.json";
     private $mediaFile = RESOURCE_PATH . "/wxofficial/media.csv";

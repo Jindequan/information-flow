@@ -10,7 +10,7 @@ use App\Services\ServiceCenter;
 use App\Services\RSS\Filter;
 use App\Services\RSS\Html;
 use App\Services\RSS\RSSLoader;
-use App\Services\WXOfficial\API;
+use App\Services\Platform\WXOfficialAPI;
 
 class WechatOfficialSync extends Base {
     private $startDate = null;
@@ -237,7 +237,7 @@ class WechatOfficialSync extends Base {
         // init services
         $this->rssLoader = new RSSLoader();
         $this->imageGenerator = new Image();
-        $this->wxofficialApi = new API();
+        $this->wxofficialApi = new WXOfficialAPI();
         ServiceCenter::new('summerize');
         ServiceCenter::new('translate');
     }

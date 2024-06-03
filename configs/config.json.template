@@ -5,6 +5,10 @@
         "cover_img": "wxofficial/cover.png",
         "author": ""
     },
+    "telegram_bot": {
+        "chat_id": "",
+        "token": ""
+    },
     "ai_service": "kimi",
     "translate_service": "tencent_translate",
     "services": {
