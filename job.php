@@ -14,7 +14,8 @@ define('RSS_STORAGE_PATH', RESOURCE_PATH . '/rss');
 
 
 $scripts = [
-    'wxofficial_sync' => App\Scripts\WechatOfficialSync::class
+    'wxofficial_sync' => App\Scripts\WechatOfficialSync::class,
+    'telegram_sync' => App\Scripts\TelegramBotSync::class,
 ];
 
 array_shift($argv);
